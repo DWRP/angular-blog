@@ -1,27 +1,47 @@
 # AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de blog simples desenvolvido em Angular, voltado para os entusiastas da cultura "otaku". Ele fornece uma plataforma para compartilhar e discutir uma variedade de tópicos relacionados ao universo otaku, incluindo anime, mangá, cosplay, jogos e muito mais.
 
-## Development server
+## Como Executar o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para executar este projeto localmente, siga estas etapas:
 
-## Code scaffolding
+1. **Clone o Repositório:** Clone este repositório para o seu ambiente local usando o comando:
+    ```
+    git clone https://github.com/dwrp/angular-blog.git
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. **Instale as Dependências:** Navegue até o diretório raiz do projeto e execute o comando:
+    ```
+    yarn install
+    ```
 
-## Build
+3. **Inicie o Servidor de Desenvolvimento:** Após a instalação das dependências, inicie o servidor de desenvolvimento com o seguinte comando:
+    ```
+    yarn start
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. **Visualize o Projeto:** Abra o navegador da web e acesse o seguinte URL:
+    ```
+    http://localhost:4200
+    ```
 
-## Running unit tests
+Agora você deve ser capaz de visualizar o blog otaku em execução no seu ambiente local.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contribuição
 
-## Running end-to-end tests
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Fork este repositório.
+2. Crie uma nova branch com a sua feature: `git checkout -b minha-feature`
+3. Commit suas mudanças: `git commit -m 'Adicionei uma nova feature'`
+4. Envie suas mudanças para a branch principal do repositório: `git push origin minha-feature`
+5. Faça um pull request para revisão.
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto foi desenvolvido por Douglas Pardim.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
