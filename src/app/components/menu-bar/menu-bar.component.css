@@ -1,12 +1,31 @@
+.container__menu-bar {
+  width: 100vw;
 
+  padding: 12px;
 
-.container__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__menu-bar > ul {
   display: flex;
   flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
+.container__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
 }
 
+.container__menu-bar > ul > li:hover {
+  opacity: .7;
+}
+
+.container__menubar-logo {
+  max-width:  85px;
+  height: auto;
+  border-radius: 50%;
+}
